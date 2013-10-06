@@ -1,0 +1,78 @@
+{
+	"Table": [{
+		"AttributeDefinitions": [{
+			"AttributeName": "Id",
+			"AttributeType": "N"
+		}],
+		"TableName": "productCatalog",
+		"KeySchema": [{
+			"AttributeName": "Id",
+			"KeyType": "HASH"
+		}],
+		"ProvisionedThroughput": {
+			"ReadCapacityUnits": 10,
+			"WriteCapacityUnits": 10
+		}
+	},
+	{
+		"AttributeDefinitions": [{
+			"AttributeName": "Name",
+			"AttributeType": "S"
+		}],
+		"TableName": "forum",
+		"KeySchema": [{
+			"AttributeName": "Name",
+			"KeyType": "HASH"
+		}],
+		"ProvisionedThroughput": {
+			"ReadCapacityUnits": 10,
+			"WriteCapacityUnits": 10
+		}
+	},
+	{
+		"AttributeDefinitions": [{
+			"AttributeName": "ForumName",
+			"AttributeType": "S"
+		},
+		{
+			"AttributeName": "Subject",
+			"AttributeType": "S"
+		}],
+		"TableName": "thread",
+		"KeySchema": [{
+			"AttributeName": "ForumName",
+			"KeyType": "HASH"
+		},
+		{
+			"AttributeName": "Subject",
+			"KeyType": "RANGE"
+		}],
+		"ProvisionedThroughput": {
+			"ReadCapacityUnits": 10,
+			"WriteCapacityUnits": 10
+		}
+	},
+	{
+		"AttributeDefinitions": [{
+			"AttributeName": "Id",
+			"AttributeType": "S"
+		},
+		{
+			"AttributeName": "ReplyDateTime",
+			"AttributeType": "S"
+		}],
+		"TableName": "Reply",
+		"KeySchema": [{
+			"AttributeName": "Id",
+			"KeyType": "HASH"
+		},
+		{
+			"AttributeName": "ReplyDateTime",
+			"KeyType": "RANGE"
+		}],
+		"ProvisionedThroughput": {
+			"ReadCapacityUnits": 10,
+			"WriteCapacityUnits": 10
+		}
+	}]
+}

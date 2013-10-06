@@ -1,0 +1,171 @@
+{
+	"productCatalog": [{
+		"Id": 101,
+		"Title": "Book 101 Title",
+		"ISBN": "111-1111111111",
+		"Authors": ["Author1"],
+		"Price": 2,
+		"Dimensions": "8.5 x 11.0 x 0.5",
+		"PageCount": 500,
+		"InPublication": 1,
+		"ProductCategory": "Book"
+	},
+	{
+		"Id": 102,
+		"Title": "Book 102 Title",
+		"ISBN": "222-2222222222",
+		"Authors": ["Author1",
+		"Author2"],
+		"Price": 20,
+		"Dimensions": "8.5 x 11.0 x 0.8",
+		"PageCount": 600,
+		"InPublication": 1,
+		"ProductCategory": "Book"
+	},
+	{
+		"Id": 103,
+		"Title": "Book 103 Title",
+		"ISBN": "333-3333333333",
+		"Authors": ["Author1",
+		"Author2"],
+		"Price": 2000,
+		"Dimensions": "8.5 x 11.0 x 1.5",
+		"PageCount": 600,
+		"InPublication": 0,
+		"ProductCategory": "Book"
+	},
+	{
+		"Id": 201,
+		"Title": "18-Bike-201",
+		"Description": "201 Description",
+		"BicycleType": "Road",
+		"Brand": "Mountain A",
+		"Price": 100,
+		"Gender": "M",
+		"Color": ["Red",
+		"Black"],
+		"ProductCategory": "Bicycle"
+	},
+	{
+		"Id": 202,
+		"Title": "21-Bike-202",
+		"Description": "202 Description",
+		"BicycleType": "Road",
+		"Brand": "Brand-Company A",
+		"Price": 200,
+		"Gender": "M",
+		"Color": ["Green",
+		"Black"],
+		"ProductCategory": "Bicycle"
+	},
+	{
+		"Id": 203,
+		"Title": "19-Bike-203",
+		"Description": "203 Description",
+		"BicycleType": "Road",
+		"Brand": "Brand-Company B",
+		"Price": 300,
+		"Gender": "W",
+		"Color": ["Red",
+		"Green",
+		"Black"],
+		"ProductCategory": "Bicycle"
+	},
+	{
+		"Id": 204,
+		"Title": "18-Bike-204",
+		"Description": "204 Description",
+		"BicycleType": "Mountain",
+		"Brand": "Brand-Company B",
+		"Price": 400,
+		"Gender": "W",
+		"Color": ["Red"],
+		"ProductCategory": "Bicycle"
+	},
+	{
+		"Id": 205,
+		"Title": "20-Bike-205",
+		"Description": "205 Description",
+		"BicycleType": "Hybrid",
+		"Brand": "Brand-Company C",
+		"Price": 500,
+		"Gender": "B",
+		"Color": ["Red",
+		"Black"],
+		"ProductCategory": "Bicycle"
+	}],
+	"forum": [{
+		"Name": "Amazon DynamoDB",
+		"Category": "Amazon Web Services",
+		"Threads": 2,
+		"Messages": 4,
+		"Views": 1000
+	},
+	{
+		"Name": "Amazon S3",
+		"Category": "Amazon Web Services",
+		"Threads": 0
+	}],
+	"thread": [{
+		"ForumName": "Amazon DynamoDB",
+		"Subject": "DynamoDB Thread 1",
+		"Message": "DynamoDB thread 1 message",
+		"LastPostedBy": "User A",
+		"LastPostedDateTime": "2013-09-19T15:48:57.218Z",
+		"Views": 0,
+		"Replies": 0,
+		"Answered": 0,
+		"Tags": ["index",
+		"primarykey",
+		"table"]
+	},
+	{
+		"ForumName": "Amazon DynamoDB",
+		"Subject": "DynamoDB Thread 2",
+		"Message": "DynamoDB thread 2 message",
+		"LastPostedBy": "User A",
+		"LastPostedDateTime": "2013-09-12T15:48:57.218Z",
+		"Views": 0,
+		"Replies": 0,
+		"Answered": 0,
+		"Tags": ["index",
+		"primarykey",
+		"rangekey"]
+	},
+	{
+		"ForumName": "Amazon S3",
+		"Subject": "S3 Thread 1",
+		"Message": "S3 Thread 3 message",
+		"LastPostedBy": "User A",
+		"LastPostedDateTime": "2013-09-26T15:48:57.218Z",
+		"Views": 0,
+		"Replies": 0,
+		"Answered": 0,
+		"Tags": ["largeobjects",
+		"multipart upload"]
+	}],
+	"Reply": [{
+		"Id": "Amazon DynamoDB#DynamoDB Thread 1",
+		"ReplyDateTime": "2013-09-12T15:48:57.218Z",
+		"Message": "DynamoDB Thread 1 Reply 1 text",
+		"PostedBy": "User A"
+	},
+	{
+		"Id": "Amazon DynamoDB#DynamoDB Thread 1",
+		"ReplyDateTime": "2013-09-19T15:48:57.218Z",
+		"Message": "DynamoDB Thread 1 Reply 2 text",
+		"PostedBy": "User B"
+	},
+	{
+		"Id": "Amazon DynamoDB#DynamoDB Thread 2",
+		"ReplyDateTime": "2013-09-26T15:48:57.218Z",
+		"Message": "DynamoDB Thread 2 Reply 1 text",
+		"PostedBy": "User A"
+	},
+	{
+		"Id": "Amazon DynamoDB#DynamoDB Thread 2",
+		"ReplyDateTime": "2013-10-02T15:48:57.218Z",
+		"Message": "DynamoDB Thread 2 Reply 2 text",
+		"PostedBy": "User A"
+	}]
+}
